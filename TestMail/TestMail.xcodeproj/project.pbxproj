@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F9BEA7B28784D1C00BBF504 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9BEA7A28784D1C00BBF504 /* AppDelegate.swift */; };
+		5F9BEA7D28784D1C00BBF504 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9BEA7C28784D1C00BBF504 /* SceneDelegate.swift */; };
+		5F9BEA7F28784D1C00BBF504 /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9BEA7E28784D1C00BBF504 /* VerificationViewController.swift */; };
+		5F9BEA8528784D1C00BBF504 /* TestMail.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5F9BEA8328784D1C00BBF504 /* TestMail.xcdatamodeld */; };
+		5F9BEA8728784D2100BBF504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9BEA8628784D2100BBF504 /* Assets.xcassets */; };
+		5F9BEA8A28784D2100BBF504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F9BEA8828784D2100BBF504 /* LaunchScreen.storyboard */; };
+		5F9BEA9528784D2100BBF504 /* TestMailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9BEA9428784D2100BBF504 /* TestMailTests.swift */; };
+		5F9BEA9F28784D2100BBF504 /* TestMailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9BEA9E28784D2100BBF504 /* TestMailUITests.swift */; };
+		5F9BEAA128784D2100BBF504 /* TestMailUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9BEAA028784D2100BBF504 /* TestMailUITestsLaunchTests.swift */; };
+		5F9BEAB42878B61800BBF504 /* StatusLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9BEAB32878B61800BBF504 /* StatusLabel.swift */; };
+		5F9BEAB82878BFEF00BBF504 /* UIStackView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9BEAB72878BFEF00BBF504 /* UIStackView + Extensions.swift */; };
+		5F9BEABA2878C2CB00BBF504 /* MailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9BEAB92878C2CB00BBF504 /* MailTextField.swift */; };
+		5F9BEABC2878C56F00BBF504 /* VerificationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9BEABB2878C56F00BBF504 /* VerificationButton.swift */; };
+		5F9BEABE2878C6EC00BBF504 /* MailCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9BEABD2878C6EC00BBF504 /* MailCollectionView.swift */; };
+		5F9BEAC12878C7F500BBF504 /* MailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9BEAC02878C7F500BBF504 /* MailCollectionViewCell.swift */; };
+		5F9BEAC52879F98400BBF504 /* VerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9BEAC42879F98400BBF504 /* VerificationModel.swift */; };
+		5F9BEAC7287A024600BBF504 /* String + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9BEAC6287A024600BBF504 /* String + Extensions.swift */; };
+		5F9BEACA287A10DE00BBF504 /* MailApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9BEAC9287A10DE00BBF504 /* MailApiKey.swift */; };
+		5F9BEACC287A143D00BBF504 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9BEACB287A143D00BBF504 /* NetworkRequest.swift */; };
+		5F9BEACE287A17D000BBF504 /* MailResponceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9BEACD287A17D000BBF504 /* MailResponceModel.swift */; };
+		5F9BEAD0287AEC3600BBF504 /* NetworkDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9BEACF287AEC3600BBF504 /* NetworkDataFetch.swift */; };
+		5F9BEAD2287AEEA700BBF504 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9BEAD1287AEEA700BBF504 /* Alerts.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F9BEA9128784D2100BBF504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F9BEA6F28784D1C00BBF504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F9BEA7628784D1C00BBF504;
+			remoteInfo = TestMail;
+		};
+		5F9BEA9B28784D2100BBF504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F9BEA6F28784D1C00BBF504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F9BEA7628784D1C00BBF504;
+			remoteInfo = TestMail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F9BEA7728784D1C00BBF504 /* TestMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F9BEA7A28784D1C00BBF504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F9BEA7C28784D1C00BBF504 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5F9BEA7E28784D1C00BBF504 /* VerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
+		5F9BEA8428784D1C00BBF504 /* TestMail.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestMail.xcdatamodel; sourceTree = "<group>"; };
+		5F9BEA8628784D2100BBF504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F9BEA8928784D2100BBF504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F9BEA8B28784D2100BBF504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F9BEA9028784D2100BBF504 /* TestMailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F9BEA9428784D2100BBF504 /* TestMailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMailTests.swift; sourceTree = "<group>"; };
+		5F9BEA9A28784D2100BBF504 /* TestMailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F9BEA9E28784D2100BBF504 /* TestMailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMailUITests.swift; sourceTree = "<group>"; };
+		5F9BEAA028784D2100BBF504 /* TestMailUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMailUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5F9BEAB32878B61800BBF504 /* StatusLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusLabel.swift; sourceTree = "<group>"; };
+		5F9BEAB72878BFEF00BBF504 /* UIStackView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extensions.swift"; sourceTree = "<group>"; };
+		5F9BEAB92878C2CB00BBF504 /* MailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailTextField.swift; sourceTree = "<group>"; };
+		5F9BEABB2878C56F00BBF504 /* VerificationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationButton.swift; sourceTree = "<group>"; };
+		5F9BEABD2878C6EC00BBF504 /* MailCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailCollectionView.swift; sourceTree = "<group>"; };
+		5F9BEAC02878C7F500BBF504 /* MailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailCollectionViewCell.swift; sourceTree = "<group>"; };
+		5F9BEAC42879F98400BBF504 /* VerificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationModel.swift; sourceTree = "<group>"; };
+		5F9BEAC6287A024600BBF504 /* String + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extensions.swift"; sourceTree = "<group>"; };
+		5F9BEAC9287A10DE00BBF504 /* MailApiKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailApiKey.swift; sourceTree = "<group>"; };
+		5F9BEACB287A143D00BBF504 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		5F9BEACD287A17D000BBF504 /* MailResponceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailResponceModel.swift; sourceTree = "<group>"; };
+		5F9BEACF287AEC3600BBF504 /* NetworkDataFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetch.swift; sourceTree = "<group>"; };
+		5F9BEAD1287AEEA700BBF504 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F9BEA7428784D1C00BBF504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F9BEA8D28784D2100BBF504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F9BEA9728784D2100BBF504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F9BEA6E28784D1C00BBF504 = {
+			isa = PBXGroup;
+			children = (
+				5F9BEA7928784D1C00BBF504 /* TestMail */,
+				5F9BEA9328784D2100BBF504 /* TestMailTests */,
+				5F9BEA9D28784D2100BBF504 /* TestMailUITests */,
+				5F9BEA7828784D1C00BBF504 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F9BEA7828784D1C00BBF504 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F9BEA7728784D1C00BBF504 /* TestMail.app */,
+				5F9BEA9028784D2100BBF504 /* TestMailTests.xctest */,
+				5F9BEA9A28784D2100BBF504 /* TestMailUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F9BEA7928784D1C00BBF504 /* TestMail */ = {
+			isa = PBXGroup;
+			children = (
+				5F9BEAC8287A10B900BBF504 /* Network */,
+				5F9BEAAD28784EB300BBF504 /* Application */,
+				5F9BEAAE28784ECF00BBF504 /* Models */,
+				5F9BEAB028784EE800BBF504 /* Views */,
+				5F9BEAAF28784ED500BBF504 /* Controllers */,
+				5F9BEAB52878BFC200BBF504 /* Extensions */,
+				5F9BEAB128784F2B00BBF504 /* Resources */,
+				5F9BEA8B28784D2100BBF504 /* Info.plist */,
+				5F9BEA8328784D1C00BBF504 /* TestMail.xcdatamodeld */,
+			);
+			path = TestMail;
+			sourceTree = "<group>";
+		};
+		5F9BEA9328784D2100BBF504 /* TestMailTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F9BEA9428784D2100BBF504 /* TestMailTests.swift */,
+			);
+			path = TestMailTests;
+			sourceTree = "<group>";
+		};
+		5F9BEA9D28784D2100BBF504 /* TestMailUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F9BEA9E28784D2100BBF504 /* TestMailUITests.swift */,
+				5F9BEAA028784D2100BBF504 /* TestMailUITestsLaunchTests.swift */,
+			);
+			path = TestMailUITests;
+			sourceTree = "<group>";
+		};
+		5F9BEAAD28784EB300BBF504 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5F9BEA7C28784D1C00BBF504 /* SceneDelegate.swift */,
+				5F9BEA7A28784D1C00BBF504 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		5F9BEAAE28784ECF00BBF504 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5F9BEAC42879F98400BBF504 /* VerificationModel.swift */,
+				5F9BEACD287A17D000BBF504 /* MailResponceModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5F9BEAAF28784ED500BBF504 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5F9BEA7E28784D1C00BBF504 /* VerificationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5F9BEAB028784EE800BBF504 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F9BEABF2878C7E300BBF504 /* Cells */,
+				5F9BEAD1287AEEA700BBF504 /* Alerts.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5F9BEAB128784F2B00BBF504 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5F9BEA8828784D2100BBF504 /* LaunchScreen.storyboard */,
+				5F9BEA8628784D2100BBF504 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5F9BEAB52878BFC200BBF504 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5F9BEAB62878BFC900BBF504 /* UIKit */,
+				5F9BEAC6287A024600BBF504 /* String + Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5F9BEAB62878BFC900BBF504 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				5F9BEAB72878BFEF00BBF504 /* UIStackView + Extensions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		5F9BEABF2878C7E300BBF504 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5F9BEAC02878C7F500BBF504 /* MailCollectionViewCell.swift */,
+				5F9BEAC32878C99E00BBF504 /* VerificationVC */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5F9BEAC32878C99E00BBF504 /* VerificationVC */ = {
+			isa = PBXGroup;
+			children = (
+				5F9BEABD2878C6EC00BBF504 /* MailCollectionView.swift */,
+				5F9BEABB2878C56F00BBF504 /* VerificationButton.swift */,
+				5F9BEAB92878C2CB00BBF504 /* MailTextField.swift */,
+				5F9BEAB32878B61800BBF504 /* StatusLabel.swift */,
+			);
+			path = VerificationVC;
+			sourceTree = "<group>";
+		};
+		5F9BEAC8287A10B900BBF504 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5F9BEAC9287A10DE00BBF504 /* MailApiKey.swift */,
+				5F9BEACB287A143D00BBF504 /* NetworkRequest.swift */,
+				5F9BEACF287AEC3600BBF504 /* NetworkDataFetch.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F9BEA7628784D1C00BBF504 /* TestMail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F9BEAA428784D2100BBF504 /* Build configuration list for PBXNativeTarget "TestMail" */;
+			buildPhases = (
+				5F9BEA7328784D1C00BBF504 /* Sources */,
+				5F9BEA7428784D1C00BBF504 /* Frameworks */,
+				5F9BEA7528784D1C00BBF504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestMail;
+			productName = TestMail;
+			productReference = 5F9BEA7728784D1C00BBF504 /* TestMail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F9BEA8F28784D2100BBF504 /* TestMailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F9BEAA728784D2100BBF504 /* Build configuration list for PBXNativeTarget "TestMailTests" */;
+			buildPhases = (
+				5F9BEA8C28784D2100BBF504 /* Sources */,
+				5F9BEA8D28784D2100BBF504 /* Frameworks */,
+				5F9BEA8E28784D2100BBF504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F9BEA9228784D2100BBF504 /* PBXTargetDependency */,
+			);
+			name = TestMailTests;
+			productName = TestMailTests;
+			productReference = 5F9BEA9028784D2100BBF504 /* TestMailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F9BEA9928784D2100BBF504 /* TestMailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F9BEAAA28784D2100BBF504 /* Build configuration list for PBXNativeTarget "TestMailUITests" */;
+			buildPhases = (
+				5F9BEA9628784D2100BBF504 /* Sources */,
+				5F9BEA9728784D2100BBF504 /* Frameworks */,
+				5F9BEA9828784D2100BBF504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F9BEA9C28784D2100BBF504 /* PBXTargetDependency */,
+			);
+			name = TestMailUITests;
+			productName = TestMailUITests;
+			productReference = 5F9BEA9A28784D2100BBF504 /* TestMailUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F9BEA6F28784D1C00BBF504 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					5F9BEA7628784D1C00BBF504 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					5F9BEA8F28784D2100BBF504 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 5F9BEA7628784D1C00BBF504;
+					};
+					5F9BEA9928784D2100BBF504 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 5F9BEA7628784D1C00BBF504;
+					};
+				};
+			};
+			buildConfigurationList = 5F9BEA7228784D1C00BBF504 /* Build configuration list for PBXProject "TestMail" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F9BEA6E28784D1C00BBF504;
+			productRefGroup = 5F9BEA7828784D1C00BBF504 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F9BEA7628784D1C00BBF504 /* TestMail */,
+				5F9BEA8F28784D2100BBF504 /* TestMailTests */,
+				5F9BEA9928784D2100BBF504 /* TestMailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F9BEA7528784D1C00BBF504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9BEA8A28784D2100BBF504 /* LaunchScreen.storyboard in Resources */,
+				5F9BEA8728784D2100BBF504 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F9BEA8E28784D2100BBF504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F9BEA9828784D2100BBF504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F9BEA7328784D1C00BBF504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9BEACC287A143D00BBF504 /* NetworkRequest.swift in Sources */,
+				5F9BEAC52879F98400BBF504 /* VerificationModel.swift in Sources */,
+				5F9BEA8528784D1C00BBF504 /* TestMail.xcdatamodeld in Sources */,
+				5F9BEA7F28784D1C00BBF504 /* VerificationViewController.swift in Sources */,
+				5F9BEABC2878C56F00BBF504 /* VerificationButton.swift in Sources */,
+				5F9BEABA2878C2CB00BBF504 /* MailTextField.swift in Sources */,
+				5F9BEA7B28784D1C00BBF504 /* AppDelegate.swift in Sources */,
+				5F9BEABE2878C6EC00BBF504 /* MailCollectionView.swift in Sources */,
+				5F9BEACA287A10DE00BBF504 /* MailApiKey.swift in Sources */,
+				5F9BEAB82878BFEF00BBF504 /* UIStackView + Extensions.swift in Sources */,
+				5F9BEAD2287AEEA700BBF504 /* Alerts.swift in Sources */,
+				5F9BEAC12878C7F500BBF504 /* MailCollectionViewCell.swift in Sources */,
+				5F9BEA7D28784D1C00BBF504 /* SceneDelegate.swift in Sources */,
+				5F9BEACE287A17D000BBF504 /* MailResponceModel.swift in Sources */,
+				5F9BEAC7287A024600BBF504 /* String + Extensions.swift in Sources */,
+				5F9BEAB42878B61800BBF504 /* StatusLabel.swift in Sources */,
+				5F9BEAD0287AEC3600BBF504 /* NetworkDataFetch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F9BEA8C28784D2100BBF504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9BEA9528784D2100BBF504 /* TestMailTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F9BEA9628784D2100BBF504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9BEAA128784D2100BBF504 /* TestMailUITestsLaunchTests.swift in Sources */,
+				5F9BEA9F28784D2100BBF504 /* TestMailUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F9BEA9228784D2100BBF504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F9BEA7628784D1C00BBF504 /* TestMail */;
+			targetProxy = 5F9BEA9128784D2100BBF504 /* PBXContainerItemProxy */;
+		};
+		5F9BEA9C28784D2100BBF504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F9BEA7628784D1C00BBF504 /* TestMail */;
+			targetProxy = 5F9BEA9B28784D2100BBF504 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F9BEA8828784D2100BBF504 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F9BEA8928784D2100BBF504 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F9BEAA228784D2100BBF504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F9BEAA328784D2100BBF504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F9BEAA528784D2100BBF504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VM2Q82V3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestMail/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = weSplit.com.TestMail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F9BEAA628784D2100BBF504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VM2Q82V3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestMail/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = weSplit.com.TestMail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F9BEAA828784D2100BBF504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VM2Q82V3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = weSplit.com.TestMailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestMail.app/TestMail";
+			};
+			name = Debug;
+		};
+		5F9BEAA928784D2100BBF504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VM2Q82V3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = weSplit.com.TestMailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestMail.app/TestMail";
+			};
+			name = Release;
+		};
+		5F9BEAAB28784D2100BBF504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VM2Q82V3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = weSplit.com.TestMailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestMail;
+			};
+			name = Debug;
+		};
+		5F9BEAAC28784D2100BBF504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VM2Q82V3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = weSplit.com.TestMailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestMail;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F9BEA7228784D1C00BBF504 /* Build configuration list for PBXProject "TestMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F9BEAA228784D2100BBF504 /* Debug */,
+				5F9BEAA328784D2100BBF504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F9BEAA428784D2100BBF504 /* Build configuration list for PBXNativeTarget "TestMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F9BEAA528784D2100BBF504 /* Debug */,
+				5F9BEAA628784D2100BBF504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F9BEAA728784D2100BBF504 /* Build configuration list for PBXNativeTarget "TestMailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F9BEAA828784D2100BBF504 /* Debug */,
+				5F9BEAA928784D2100BBF504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F9BEAAA28784D2100BBF504 /* Build configuration list for PBXNativeTarget "TestMailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F9BEAAB28784D2100BBF504 /* Debug */,
+				5F9BEAAC28784D2100BBF504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5F9BEA8328784D1C00BBF504 /* TestMail.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5F9BEA8428784D1C00BBF504 /* TestMail.xcdatamodel */,
+			);
+			currentVersion = 5F9BEA8428784D1C00BBF504 /* TestMail.xcdatamodel */;
+			path = TestMail.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5F9BEA6F28784D1C00BBF504 /* Project object */;
+}
